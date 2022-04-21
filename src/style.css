@@ -1,0 +1,92 @@
+body {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+.malmo {
+  max-width: 100%;
+  position: fixed;
+  background-size: cover;
+  top: 0;
+}
+.card {
+  position: relative;
+  background: linear-gradient(to top, #84a2d8 0%, #2876a7 100%);
+  border-radius: 50px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 950px;
+  padding: 10px 15px;
+  height: 500px;
+}
+.row {
+  line-height: 40px;
+}
+.forecast-one,
+.forecast-three {
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+}
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.current-day {
+  font-size: 44px;
+  margin-top: 50px;
+  text-align: right;
+}
+.col-4 {
+  text-align: center;
+}
+.current-temp {
+  font-size: 130px;
+  font-weight: bold;
+  text-align: right;
+}
+#celcius-link,
+#fahrenheit-link {
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+  text-decoration: none;
+}
+.current-conditions {
+  font-size: 80px;
+  margin-top: 20px;
+  text-align: right;
+}
+.humidity {
+  font-size: 30px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.wind {
+  font-size: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+input {
+  background-color: #4584b7;
+  border-radius: 20px;
+  color: #fff;
+  border-color: #fff;
+  border-image: none;
+  margin-left: 30px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+}
+Input::placeholder {
+  border-color: #fff;
+  color: #fff;
+}
+.forecast-two {
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+  margin-bottom: 5px;
+}
