@@ -45,7 +45,7 @@ h1 {
 .current-temp {
   font-size: 130px;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
 }
 #celcius-link,
 #fahrenheit-link {
