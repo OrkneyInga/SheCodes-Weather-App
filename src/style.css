@@ -59,7 +59,7 @@ h1 {
 .current-conditions {
   font-size: 80px;
   margin-top: 20px;
-  text-align: right;
+  text-align: center;
 }
 .humidity {
   font-size: 30px;
