@@ -18,7 +18,7 @@ body {
   margin-top: 50px;
   max-width: 950px;
   padding: 10px 15px;
-  height: 500px;
+  height: 550px;
 }
 .row {
   line-height: 40px;
@@ -89,4 +89,12 @@ Input::placeholder {
   line-height: 60px;
   text-align: center;
   margin-bottom: 5px;
+}
+.repository-link {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+.git-link {
+  color: #fff;
 }
